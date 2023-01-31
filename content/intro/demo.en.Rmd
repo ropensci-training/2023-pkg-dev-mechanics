@@ -1,0 +1,71 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+Note to Maëlle: SLOW DOWN!! Commit often, show state of folder. Mute if typing secrets or just typing a lot as you type loudly.
+
+* `.Library`, `.libPaths()`
+
+## System setup
+
+* `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
+
+* `install.packages("available")`.
+
+* `devtools::has_devel()`
+
+* `devtools::dev_sitrep()`
+
+* `usethis::git_sitrep()`. [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html); ["Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
+
+* usethis and devtools setup in my .Rprofile. `usethis::edit_r_profile()`, what is an .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+
+Setup is not fun!
+
+## Package creation
+
+* `available::available("minipkg")`
+
+* `usethis::create_package("../minipkg")`
+
+* `usethis::edit_r_profile()`
+
+* `usethis::use_git()`
+
+* `usethis::use_r("time")`. Explain what `sprintf()` does.
+
+* `devtools::load()`, `what_time()`
+
+* Insert roxygen2 skeleton.
+
+* `devtools::document()`, `?what_time`, show the Rd file.
+
+* `devtools::check()`, `usethis::use_mit_license` 
+
+* add an argument, `@param language blabla` in docs, `devtools::document()`, `?what_time`
+
+* `usethis::use_test("current-time")`: first a simple test, then a snapshot test, then a snapshot of the error.
+
+* `devtools::test()` / test the file on its own via the button.
+
+* `devtools::check()`
+
+*  modify function, `use_package("praise")`
+
+* `devtools::check()`
+
+* `usethis::use_readme_rmd()`, write stuff
+
+* `usethis::use_github()` (`usethis::use_github_links()`). Show the GitHub repo, its description.
+
+* Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
+
+* `usethis::use_github_action_check_standard()`. Check on the cloud, different operating systems.
+
+* `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Locally.
+
+* `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+
+* `usethis::use_release_issue()` for information
