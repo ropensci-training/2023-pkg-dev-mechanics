@@ -1,6 +1,6 @@
 ---
 title: Introduction
-weight: 1
+weight: 2
 chapter: true
 slides: true
 menuTitle: Intro

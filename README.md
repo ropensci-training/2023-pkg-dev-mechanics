@@ -1,6 +1,6 @@
 
 <!-- badges: start -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1d280a28-d7bd-4a10-9615-023ca8dc5e3d/deploy-status)](https://app.netlify.com/sites/rpkgdev-sicss-covenant/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/77071f1e-e3f6-460e-983e-04d1a9ede758/deploy-status)](https://app.netlify.com/sites/rpkgdev-mechanics/deploys)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
