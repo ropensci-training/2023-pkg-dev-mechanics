@@ -7,17 +7,11 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 86c5e8e4cf7786a0
+rmd_hash: c6d440455992d7e0
 
 ---
 
-# Become an R Package Developer!
-
-:wave: Hello!
-
-------------------------------------------------------------------------
-
-## Bonjour from Nancy !
+# Package Development
 
 <div class="highlight">
 
@@ -25,7 +19,7 @@ rmd_hash: 86c5e8e4cf7786a0
 
 <div class="highlight">
 
-{{< figure src="4843787.jpeg" alt="View from the Stanislas square in Nancy" caption="Picture by [Dimitry Anikin on Pexels](https://www.pexels.com/photo/aged-historical-porte-desilles-triumphal-arch-on-cloudy-day-4843787/)." width="600" >}}
+{{< figure src="132682.jpeg" alt="Bike in repair room" caption="Picture by [Alexander Dummer on Pexels](https://www.pexels.com/photo/black-road-bicycle-inside-room-132682/)." width="400" >}}
 
 </div>
 
@@ -139,11 +133,15 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ------------------------------------------------------------------------
 
-## Why automate package development?
+## Why automate? Easier for...
 
-Easier to do, easier to teach.
+Regular work, teaching, reproducing problems.
 
-You will create more packages than you think: for real usage, but also for reproducing problems.
+<div class="highlight">
+
+{{< figure src="5446296.jpeg" alt="Bike wheel with tools on the floor" caption="Picture by [cottonbro studio on Pexels](https://www.pexels.com/photo/wrench-on-a-ground-5446296/)." width="200" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
@@ -153,29 +151,65 @@ You will create more packages than you think: for real usage, but also for repro
 
 -   Learn that there is no magic, only practice and :sparkles: tips :sparkles:.
 
+<div class="highlight">
+
+{{< figure src="686230.jpeg" alt="Bike sign on a bike path, with tree leaves" caption="Picture by [Cristiana Raluca on Pexels](https://www.pexels.com/photo/white-bicycle-road-sign-686230/)." width="300" >}}
+
+</div>
+
 ------------------------------------------------------------------------
 
 ## Website tour
 
 :link: <https://rpkgdev-mechanics.netlify.app/>
 
-Slides, notes from the demo, further resources, comments!
+Slides, demo notes, further resources
+
+<div class="highlight">
+
+{{< figure src="3932867.jpeg" alt="Small kid on a balance bike" caption="Picture by [Tatiana Syrikova on Pexels](https://www.pexels.com/photo/anonymous-kid-in-helmet-riding-run-bike-on-pavement-in-countryside-3932867/)." width="200" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
-## Time for a demo :rocket:
+## Time for the workshop :bicycle:
 
-Notes on the [course website](/intro/demo).
+Alternating between watching and practicing in breakout rooms.
 
-Also refer to the [Whole game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html).
+<div class="highlight">
+
+{{< figure src="221237.jpeg" alt="Two bikes parked" caption="Picture by [Pixabay on Pexels](https://www.pexels.com/photo/action-bicycle-bike-biking-221237/)." width="200" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
-## Back from the demo
+## Back from the workshop
 
--   [`devtools::load_all()`](https://devtools.r-lib.org/reference/load_all.html) (and then install)
+`{usethis}` for all the things.
 
--   `{usethis}` for all the things.
+<div class="highlight">
+
+{{< figure src="206040.jpeg" alt="Cycle path sign" caption="Picture by [Nika Dzamashvili on Pexels](https://www.pexels.com/photo/black-and-white-bicycle-road-sign-206040/)." width="400" >}}
+
+</div>
+
+------------------------------------------------------------------------
+
+## usethis related content in `.Rprofile`
+
+Like saving the settings of a bike.
+
+No need to adjust the saddle height every time you go for a ride!
+
+------------------------------------------------------------------------
+
+## Two wheels always turning :bike:
+
+-   loading, trying out, editing.
+
+-   running (adding) the tests, editing. Tests are a safety measure and a time saver!
 
 ------------------------------------------------------------------------
 
@@ -183,7 +217,7 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 <div class="highlight">
 
-{{< figure src="1616781.jpeg" alt="East Berlin pedestrian traffic light" caption="Picture by [Jos van Ouwerkerk on Pexels](https://www.pexels.com/photo/selective-focus-photography-of-traffic-light-1616781/)." width="300" >}}
+{{< figure src="4543112.jpeg" alt="Bike traffic light" caption="Picture by [cottonbro studio on Pexels](https://www.pexels.com/photo/traffic-light-on-red-light-4543112/)." width="300" >}}
 
 </div>
 
@@ -222,4 +256,6 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 ## Questions?
 
 See you at the next package development training?
+
+<iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
 

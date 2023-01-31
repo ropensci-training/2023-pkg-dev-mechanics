@@ -9,13 +9,7 @@ output: hugodown::md_document
 countdown: true
 ---
 
-# Become an R Package Developer!
-
-:wave: Hello!
-
----
-
-## Bonjour from Nancy !
+# Package Development
 
 ```{r, echo=FALSE}
 library("magrittr")
@@ -42,8 +36,8 @@ cat("\n```\n")
 }
 ```
 
-```{r nancy, results="asis", cache=TRUE, echo=FALSE}
-get_pic(id = 4843787, alt = "View from the Stanislas square in Nancy", 600)
+```{r repair, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 132682, alt = "Bike in repair room", 400)
 ```
 
 
@@ -159,12 +153,13 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ---
 
-## Why automate package development?
+## Why automate? Easier for...
 
-Easier to do, easier to teach.
+Regular work, teaching, reproducing problems.
 
-You will create more packages than you think: for real usage, but also for reproducing problems.
-
+```{r wheel, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 5446296, alt = "Bike wheel with tools on the floor", 200)
+```
 
 ---
 
@@ -174,30 +169,42 @@ You will create more packages than you think: for real usage, but also for repro
 
 * Learn that there is no magic, only practice and :sparkles: tips :sparkles:.
 
+
+```{r tiny, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 686230, alt = "Bike sign on a bike path, with tree leaves", 300)
+```
+
 ---
 
 ## Website tour
 
 :link: https://rpkgdev-mechanics.netlify.app/
 
-Slides, notes from the demo, further resources, comments!
+Slides, demo notes, further resources
+
+```{r balance, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 3932867, alt = "Small kid on a balance bike", 200)
+```
 
 ---
 
-## Time for a demo :rocket:
+## Time for the workshop :bicycle:
 
-Notes on the [course website](/intro/demo).
+Alternating between watching and practicing in breakout rooms.
 
-Also refer to the [Whole game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html).
-
+```{r parkes, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 221237, alt = "Two bikes parked", 200)
+```
 ---
 
 
-## Back from the demo
+## Back from the workshop
 
-* `devtools::load_all()` (and then install)
+`{usethis}` for all the things.
 
-* `{usethis}` for all the things.
+```{r sign, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 206040, alt = "Cycle path sign", 400)
+```
 
 ---
 
@@ -213,7 +220,7 @@ No need to adjust the saddle height every time you go for a ride!
 
 - loading, trying out, editing.
 
-- running the tests, editing. Tests are a safety measure and a time saver!
+- running (adding) the tests, editing. Tests are a safety measure and a time saver!
 
 
 ---
@@ -221,7 +228,7 @@ No need to adjust the saddle height every time you go for a ride!
 ## R CMD check (devtools::check())
 
 ```{r traffic, results="asis", cache=TRUE, echo=FALSE}
-get_pic(id = 1616781, alt = "East Berlin pedestrian traffic light", 300)
+get_pic(id = 4543112, alt = "Bike traffic light", 300)
 ```
 
 
@@ -260,3 +267,7 @@ get_pic(id = 1616781, alt = "East Berlin pedestrian traffic light", 300)
 ## Questions?
 
 See you at the next package development training?
+
+```{=html}
+<iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
+```
