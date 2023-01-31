@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 832d97701b700b37
+rmd_hash: 86c5e8e4cf7786a0
 
 ---
 
@@ -139,9 +139,11 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ------------------------------------------------------------------------
 
-## `usethis` and co
+## Why automate package development?
 
-{{< tweet 935562495816753153 >}}
+Easier to do, easier to teach.
+
+You will create more packages than you think: for real usage, but also for reproducing problems.
 
 ------------------------------------------------------------------------
 
@@ -149,15 +151,13 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 -   Get to know (the best :innocent:) tools for package development;
 
--   Learn that there is no magic, only practice and :sparkles: tips :sparkles:;
-
--   Think about whether to contribute to open-source packages.
+-   Learn that there is no magic, only practice and :sparkles: tips :sparkles:.
 
 ------------------------------------------------------------------------
 
 ## Website tour
 
-:link: <https://rpkgdev-sicss-covenant.netlify.app/>
+:link: <https://rpkgdev-mechanics.netlify.app/>
 
 Slides, notes from the demo, further resources, comments!
 
@@ -221,19 +221,5 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 ## Questions?
 
-Write them in the doc.
-
-------------------------------------------------------------------------
-
-## Time for a break! :coffee:
-
-<!--html_preserve-->
-
-<div id="timer_hugo" class="countdown" style="top:100;left:0;" data-warnwhen="0">
-
-<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-
-</div>
-
-<!--/html_preserve-->
+See you at the next package development training?
 

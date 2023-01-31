@@ -33,14 +33,6 @@ what_time <- function(language = "fr") {
 }
 ```
 
-
-```r
-test_that("what_time() works", {
-  expect_type(what_time(), "character")
-  expect_snapshot_error(what_time(language = "bla"))
-})
-```
-
 ```r
 what_time <- function(language = "fr") {
 
@@ -87,4 +79,12 @@ what_time <- function(language = "fr") {
     en = sprintf("%s! It is %s now!", exclamation, time)
   )
 }
+```
+
+
+```r
+test_that("what_time() works", {
+  expect_type(what_time(), "character")
+  expect_snapshot_error(what_time(language = "bla"))
+})
 ```

@@ -2,15 +2,13 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: e4061795ca94212b
+rmd_hash: 6137686fcd5d4347
 
 ---
 
-Note to Maëlle: SLOW DOWN!! Commit often, show state of folder. Mute if typing secrets or just typing a lot as you type loudly.
+## System setup
 
 -   `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
-
-## System setup
 
 -   `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
 
@@ -26,6 +24,10 @@ Note to Maëlle: SLOW DOWN!! Commit often, show state of folder. Mute if typing 
 
 Setup is not fun!
 
+:toolbox: (no breakout room) Anything still amiss to report? :fingers_crossed:
+
+------------------------------------------------------------------------
+
 ## Package creation
 
 -   `available::available("minipkg")`
@@ -34,41 +36,77 @@ Setup is not fun!
 
 -   [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html)
 
+-   [`devtools::check()`](https://devtools.r-lib.org/reference/check.html), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html)
+
 -   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
+
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html). Look at repository including :sparkles: issue tracker :sparkles:.
+
+:eyes: [usethis website](https://usethis.r-lib.org/)
+
+:toolbox: Repeat the same steps, post the link to your package repo in the chat!
+
+------------------------------------------------------------------------
+
+## A first function + docs + test
 
 -   `usethis::use_r("time")`. Explain what [`sprintf()`](https://rdrr.io/r/base/sprintf.html) does.
 
--   `devtools::load()`, `what_time()`
+-   `devtools::load()`, `what_time()`.
+
+-   add an argument.
+
+-   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+
+-   add a dependency, `use_package("praise")`.
+
+-   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
 -   Insert roxygen2 skeleton.
 
 -   [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`, show the Rd file.
 
--   [`devtools::check()`](https://devtools.r-lib.org/reference/check.html), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html)
+-   `use_testthat()`.
 
--   add an argument, `@param language blabla` in docs, [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`
-
--   `usethis::use_test("current-time")`: first a simple test, then a snapshot test, then a snapshot of the error.
+-   `use_test("time")`: first a simple test, then a snapshot test, then a snapshot of the error.
 
 -   [`devtools::test()`](https://devtools.r-lib.org/reference/test.html) / test the file on its own via the button.
 
 -   [`devtools::check()`](https://devtools.r-lib.org/reference/check.html)
 
--   modify function, `use_package("praise")`
-
--   [`devtools::check()`](https://devtools.r-lib.org/reference/check.html)
-
--   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff
-
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html) ([`usethis::use_github_links()`](https://usethis.r-lib.org/reference/use_github_links.html)). Show the GitHub repo, its description.
-
 -   Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
 
--   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/github_actions.html). Check on the cloud, different operating systems.
+:eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
+
+:eyes: [testthat website](https://testthat.r-lib.org/)
+
+:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: repeat the steps!
+
+------------------------------------------------------------------------
+
+## Documentation
+
+:warning: rmarkdown and pkgdown needs your package to be *installed*.
+
+-   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff.
+
+-   `usethis::use_vignette("minipkg")`, write stuff.
 
 -   `install.packages("pkgdown")`, [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Locally.
 
+:eyes: [pkgdown website](https://pkgdown.r-lib.org/)
+
+## GitHub Actions
+
+-   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/github_actions.html). Check on the cloud, different operating systems.
+
 -   `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
 
--   [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html) for information
+:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: Repeat the steps!
+
+------------------------------------------------------------------------
 
