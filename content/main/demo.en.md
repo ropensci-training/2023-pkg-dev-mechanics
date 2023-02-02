@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 6137686fcd5d4347
+rmd_hash: f5c6b7caba6637a3
 
 ---
 
@@ -58,7 +58,7 @@ Setup is not fun!
 
 -   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
--   add a dependency, `use_package("praise")`.
+-   add two dependencies, `use_package("praise")` and `use_package("rlang")`.
 
 -   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
@@ -90,7 +90,7 @@ Setup is not fun!
 
 :warning: rmarkdown and pkgdown needs your package to be *installed*.
 
--   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff.
+-   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff, knit, commit+push, look at GitHub repository.
 
 -   `usethis::use_vignette("minipkg")`, write stuff.
 
