@@ -10,7 +10,7 @@ output: hugodown::md_document
 
 * `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
 
-* `install.packages("available")`.
+* `install.packages("pak")`.
 
 * `devtools::has_devel()`
 
@@ -28,7 +28,7 @@ Setup is not fun!
 
 ## Package creation
 
-* `available::available("minipkg")`
+* `pak::pkg_name_check("minipkg")`
 
 * `usethis::create_package("../minipkg")`
 

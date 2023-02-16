@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: f5c6b7caba6637a3
+rmd_hash: a0ad436bbea169e1
 
 ---
 
@@ -12,7 +12,7 @@ rmd_hash: f5c6b7caba6637a3
 
 -   `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
 
--   `install.packages("available")`.
+-   `install.packages("pak")`.
 
 -   [`devtools::has_devel()`](https://r-lib.github.io/pkgbuild/reference/has_compiler.html)
 
@@ -30,7 +30,7 @@ Setup is not fun!
 
 ## Package creation
 
--   `available::available("minipkg")`
+-   `pak::pkg_name_check("minipkg")`
 
 -   `usethis::create_package("../minipkg")`
 
