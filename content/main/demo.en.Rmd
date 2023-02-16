@@ -88,7 +88,7 @@ Setup is not fun!
 
 :warning: rmarkdown and pkgdown needs your package to be _installed_.
 
-* `usethis::use_readme_rmd()`, write stuff, knit, commit+push, look at GitHub repository.
+* `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, write stuff, knit, commit+push, look at GitHub repository.
 
 * `usethis::use_vignette("minipkg")`, write stuff.
 

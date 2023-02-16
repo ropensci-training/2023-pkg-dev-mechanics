@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: a0ad436bbea169e1
+rmd_hash: 74678cd249cbefa7
 
 ---
 
@@ -90,7 +90,7 @@ Setup is not fun!
 
 :warning: rmarkdown and pkgdown needs your package to be *installed*.
 
--   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff, knit, commit+push, look at GitHub repository.
+-   `install.packages("rmarkdown")`, [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff, knit, commit+push, look at GitHub repository.
 
 -   `usethis::use_vignette("minipkg")`, write stuff.
 
