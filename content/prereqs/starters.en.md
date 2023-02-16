@@ -5,7 +5,7 @@ weight: 1
 
 Before you start writing packages...
 
-* Set up your system as [explained in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/setup.html). Contact me (Slack message, `maelle@ropensci.org`) if the call to `devtools::dev_sitrep()` gives you an error that puzzles you.
+* Set up your system as [explained in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/setup.html). Contact me (Slack message, `maelle@ropensci.org`) if the call to `devtools::has_devel()` gives you an error that puzzles you.
 
 * Create a GitHub account, install git.
 
