@@ -30,7 +30,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/maelle/2023-pkg-dev-mechanics"
+url = "https://github.com/ropensci-training/2023-pkg-dev-mechanics"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
@@ -49,7 +49,7 @@ url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40
 
 [params]
-  editURL = "https://github.com/maelle/2023-pkg-dev-mechanics/edit/main/content/"
+  editURL = "https://github.com/ropensci-training/2023-pkg-dev-mechanics/edit/main/content/"
   description = "Package Development: the Mechanics"
   author = "Maëlle Salmon"
   showVisitedLinks = true
