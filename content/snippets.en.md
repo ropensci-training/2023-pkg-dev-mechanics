@@ -19,7 +19,7 @@ what_time <- function() {
 what_time <- function(language = "fr") {
 
   if (!language %in% c("fr", "en")) {
-    stop("Either choose fr or en as a language.")
+    stop("Either choose 'fr' or 'en' as a language.")
   }
 
   time <- format(Sys.time(), "%H:%M")
@@ -66,7 +66,7 @@ what_time <- function(language = "fr") {
 what_time <- function(language = "fr") {
 
   if (!language %in% c("fr", "en")) {
-    stop("Either choose fr or en as a language.")
+    stop("Either choose 'fr' or 'en' as a language.")
   }
 
   time <- format(Sys.time(), "%H:%M")
