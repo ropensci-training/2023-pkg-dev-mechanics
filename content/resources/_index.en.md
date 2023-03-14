@@ -23,8 +23,6 @@ rmd_hash: 31607e4af7dc6362
 
 -   [rOpenSci dev guide](https://devguide.ropensci.org).
 
--   [Tidyverse design guide](https://design.tidyverse.org/).
-
 -   [R-hub blog](https://blog.r-hub.io) e.g. [Checking the inputs of your R functions](https://blog.r-hub.io/2022/03/10/input-checking/) & [Coding style, coding etiquette](https://blog.r-hub.io/2022/03/21/code-style/).
 
 -   [Tidyverse style guide](https://style.tidyverse.org/).
